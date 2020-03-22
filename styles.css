@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "KFGQPCUthmanTahaNaskh";
+  src: url("font/KFGQPCUthmanTahaNaskh.eot?#iefix") format("embedded-opentype"),
+    url("font/KFGQPCUthmanTahaNaskh.woff") format("woff"),
+    url("font/KFGQPCUthmanTahaNaskh.ttf") format("truetype"),
+    url("font/KFGQPCUthmanTahaNaskh.svg#KFGQPCUthmanTahaNaskh") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
