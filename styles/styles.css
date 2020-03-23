@@ -56,7 +56,27 @@ body {
   }
 }
 
-arabic {
-  font-family: KFGQPCUthmanTahaNaskh;
+.hadist{
+    margin: 20px;
+}
+
+.arabic{
+    font-family: KFGQPCUthmanTahaNaskh;
+    text-align: right;
+}
+
+.matan {
   font-size: 2rem;
+}
+
+.meaning{
+    text-align: justify;
+}
+
+.sanad{
+    font-size: 1.5em;
+}
+
+.rawi{
+    font-size: 1.5em;
 }
