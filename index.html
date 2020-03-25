@@ -28,61 +28,62 @@
         </script>
     </head>
 
-    <body data-spy="scroll" data-target="#sidebar-wrapper" data-offset="50">
+    <body>
         <div class="d-flex" id="wrapper">
-            <!-- Sidebar -->
-            <div class="bg-light border-right" id="sidebar-wrapper">
-                <div class="sidebar-heading">Daftar Isi</div>
-                <div class="list-group list-group-flush" data-spy="affix" data-offset-top="205">
-                    <a href="#hadist-1" class="list-group-item list-group-item-action bg-light">Hadist 1</a>
-                    <a href="#hadist-2" class="list-group-item list-group-item-action bg-light">Hadist 2</a>
-                    <a href="#hadist-3" class="list-group-item list-group-item-action bg-light">Hadist 3</a>
-                    <a href="#hadist-4" class="list-group-item list-group-item-action bg-light">Hadist 4</a>
-                    <a href="#hadist-5" class="list-group-item list-group-item-action bg-light">Hadist 5</a>
-                    <a href="#hadist-6" class="list-group-item list-group-item-action bg-light">Hadist 6</a>
-                    <a href="#hadist-7" class="list-group-item list-group-item-action bg-light">Hadist 7</a>
-                    <a href="#hadist-8" class="list-group-item list-group-item-action bg-light">Hadist 8</a>
-                    <a href="#hadist-9" class="list-group-item list-group-item-action bg-light">Hadist 9</a>
-                    <a href="#hadist-10" class="list-group-item list-group-item-action bg-light">Hadist 10</a>
-                    <a href="#hadist-11" class="list-group-item list-group-item-action bg-light">Hadist 11</a>
-                    <a href="#hadist-12" class="list-group-item list-group-item-action bg-light">Hadist 12</a>
-                    <a href="#hadist-13" class="list-group-item list-group-item-action bg-light">Hadist 13</a>
-                    <a href="#hadist-14" class="list-group-item list-group-item-action bg-light">Hadist 14</a>
-                    <a href="#hadist-15" class="list-group-item list-group-item-action bg-light">Hadist 15</a>
-                    <a href="#hadist-16" class="list-group-item list-group-item-action bg-light">Hadist 16</a>
-                    <a href="#hadist-17" class="list-group-item list-group-item-action bg-light">Hadist 17</a>
-                    <a href="#hadist-18" class="list-group-item list-group-item-action bg-light">Hadist 18</a>
-                    <a href="#hadist-19" class="list-group-item list-group-item-action bg-light">Hadist 19</a>
-                    <a href="#hadist-20" class="list-group-item list-group-item-action bg-light">Hadist 20</a>
-                    <a href="#hadist-21" class="list-group-item list-group-item-action bg-light">Hadist 21 (WIP)</a>
-                    <a href="#hadist-22" class="list-group-item list-group-item-action bg-light">Hadist 22 (WIP)</a>
-                    <a href="#hadist-23" class="list-group-item list-group-item-action bg-light">Hadist 23 (WIP)</a>
-                    <a href="#hadist-24" class="list-group-item list-group-item-action bg-light">Hadist 24 (WIP)</a>
-                    <a href="#hadist-25" class="list-group-item list-group-item-action bg-light">Hadist 25 (WIP)</a>
-                    <a href="#hadist-26" class="list-group-item list-group-item-action bg-light">Hadist 26 (WIP)</a>
-                    <a href="#hadist-27" class="list-group-item list-group-item-action bg-light">Hadist 27 (WIP)</a>
-                    <a href="#hadist-28" class="list-group-item list-group-item-action bg-light">Hadist 28 (WIP)</a>
-                    <a href="#hadist-29" class="list-group-item list-group-item-action bg-light">Hadist 29 (WIP)</a>
-                    <a href="#hadist-30" class="list-group-item list-group-item-action bg-light">Hadist 30 (WIP)</a>
-                    <a href="#hadist-31" class="list-group-item list-group-item-action bg-light">Hadist 31 (WIP)</a>
-                    <a href="#hadist-32" class="list-group-item list-group-item-action bg-light">Hadist 32 (WIP)</a>
-                    <a href="#hadist-33" class="list-group-item list-group-item-action bg-light">Hadist 33 (WIP)</a>
-                    <a href="#hadist-34" class="list-group-item list-group-item-action bg-light">Hadist 34 (WIP)</a>
-                    <a href="#hadist-35" class="list-group-item list-group-item-action bg-light">Hadist 35 (WIP)</a>
-                    <a href="#hadist-36" class="list-group-item list-group-item-action bg-light">Hadist 36 (WIP)</a>
-                    <a href="#hadist-38" class="list-group-item list-group-item-action bg-light">Hadist 38 (WIP)</a>
-                    <a href="#hadist-39" class="list-group-item list-group-item-action bg-light">Hadist 39 (WIP)</a>
-                    <a href="#hadist-40" class="list-group-item list-group-item-action bg-light">Hadist 40 (WIP)</a>
-                    <a href="#hadist-41" class="list-group-item list-group-item-action bg-light">Hadist 41 (WIP)</a>
-                    <a href="#hadist-42" class="list-group-item list-group-item-action bg-light">Hadist 42 (WIP)</a>
-                </div>
-            </div>
-            <!-- /#sidebar-wrapper -->
-
             <!-- Page Content -->
             <div id="page-content-wrapper">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-                    <button class="btn btn-primary" id="menu-toggle">Daftar Isi</button>
+                <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light border-bottom">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="btn btn-info dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Daftar Isi
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown">
+                                <a href="#hadist-1" class="dropdown-item">Hadist 1 - Amalan Bergantung pada Niat</a>
+                                <a href="#hadist-2" class="dropdown-item">Hadist 2 - Rukun Islam, Iman, dan Ihsan</a>
+                                <a href="#hadist-3" class="dropdown-item">Hadist 3 - Islam Dibangun di atas Lima Dasar</a>
+                                <a href="#hadist-4" class="dropdown-item">Hadist 4 - Takdir Setiap Manusia sudah Tertulis</a>
+                                <a href="#hadist-5" class="dropdown-item">Hadist 5 - Larangan Membuat Sesuatu yang Baru dalam Agama</a>
+                                <a href="#hadist-6" class="dropdown-item">Hadist 6 - Segala Hal yang Haram dan yang Halal telah Jelas</a>
+                                <a href="#hadist-7" class="dropdown-item">Hadist 7 - Agama Ini adalah Nasehat</a>
+                                <a href="#hadist-8" class="dropdown-item">Hadist 8 - Terjaganya Darah dan Harta Seorang Muslim</a>
+                                <a href="#hadist-9" class="dropdown-item">Hadist 9 - Kerjakanlah Perintah yang Kamu Mampu</a>
+                                <a href="#hadist-10" class="dropdown-item">Hadist 10 - Allah Maha Baik dan Hanya Menerima yang Baik</a>
+                                <a href="#hadist-11" class="dropdown-item">Hadist 11 - Tinggalkanlah Sesuatu yang Membuatmu Ragu</a>
+                                <a href="#hadist-12" class="dropdown-item">Hadist 12 - Meninggalkan Perkara yang tidak Bermanfaat</a>
+                                <a href="#hadist-13" class="dropdown-item">Hadist 13 - Mencintai Kebaikan untuk Saudaranya</a>
+                                <a href="#hadist-14" class="dropdown-item">Hadist 14 - Tidak Halal Darah seorang Muslim</a>
+                                <a href="#hadist-15" class="dropdown-item">Hadist 15 - Barangsiapa Beriman kepada Allah dan Hari Akhir</a>
+                                <a href="#hadist-16" class="dropdown-item">Hadist 16 - Janganlah Engkau Marah</a>
+                                <a href="#hadist-17" class="dropdown-item">Hadist 17 - Kewajiban Berlaku Ihsan pada Segala Sesuatu</a>
+                                <a href="#hadist-18" class="dropdown-item">Hadist 18 - Bertakwalah di manapun Engkau Berada</a>
+                                <a href="#hadist-19" class="dropdown-item">Hadist 19 - Jagalah Allah niscaya Allah Menjagamu</a>
+                                <a href="#hadist-20" class="dropdown-item">Hadist 20 - Jika Engkau tidak Malu maka Berbuatlah Sesukamu</a>
+                                <a href="#hadist-21" class="dropdown-item">Hadist 21 - Katakan: Aku Beriman kepada Allah</a>
+                                <a href="#hadist-22" class="dropdown-item">Hadist 22 - Apakah Aku akan Masuk Surga ?</a>
+                                <a href="#hadist-23" class="dropdown-item">Hadist 23 - Kesucian itu Separuh dari Iman</a>
+                                <a href="#hadist-24" class="dropdown-item">Hadist 24 - Janganlah Kalian saling Menzhalimi</a>
+                                <a href="#hadist-25" class="dropdown-item">Hadist 25 - Bersedekah tidak harus dengan Harta</a>
+                                <a href="#hadist-26" class="dropdown-item">Hadist 26 - Setiap Persendian Ada Sedekahnya</a>
+                                <a href="#hadist-27" class="dropdown-item">Hadist 27 - Kebaikan itu adalah Akhlak yang Baik</a>
+                                <a href="#hadist-28" class="dropdown-item">Hadist 28 - Mendengar dan Taat kepada Penguasa</a>
+                                <a href="#hadist-29" class="dropdown-item">Hadist 29 - Pintu-pintu Kebaikan</a>
+                                <a href="#hadist-30" class="dropdown-item">Hadist 30 - Allah telah Menetapkan Kewajiban-kewajiban</a>
+                                <a href="#hadist-31" class="dropdown-item">Hadist 31 - Perintah untuk Bersifat Zuhud</a>
+                                <a href="#hadist-32" class="dropdown-item">Hadist 32 - Larangan Membahayakan Diri dan Orang Lain</a>
+                                <a href="#hadist-33" class="dropdown-item">Hadist 33 - Penuntut Harus Membawa Bukti</a>
+                                <a href="#hadist-34" class="dropdown-item">Hadist 34 - Kewajiban Mengingkari Kemungkaran</a>
+                                <a href="#hadist-35" class="dropdown-item">Hadist 35 - Sesama Muslim adalah Saudara</a>
+                                <a href="#hadist-36" class="dropdown-item">Hadist 36 - Balasan itu Sejenis dengan Amalan</a>
+                                <a href="#hadist-37" class="dropdown-item">Hadist 37 - Amalan Kebaikan itu Dilipatgandakan</a>
+                                <a href="#hadist-38" class="dropdown-item">Hadist 38 - Cara Mendapatkan Kecintaan Allah</a>
+                                <a href="#hadist-39" class="dropdown-item">Hadist 39 - Allah Mengampuni Siapa yang Tersalah dan Lupa</a>
+                                <a href="#hadist-40" class="dropdown-item">Hadist 40 - Jadilah Engkau di Dunia ini seperti Orang Asing</a>
+                                <a href="#hadist-41" class="dropdown-item">Hadist 41 - Hingga Hawa Nafsunya Mengikuti Apa yang Aku Bawa</a>
+                                <a href="#hadist-42" class="dropdown-item">Hadist 42 - Allah Maha Pengampun</a>
+                            </div>
+                        </li>
+                    </ul>
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -90,11 +91,8 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="./index.html">Home</a>
                             </li>
                         </ul>
                     </div>
@@ -319,7 +317,7 @@
                         <hr />
                     </div>
                     <div class="hadist" id="hadist-10">
-                        <h2 class="mt-4">Hadist 10 : Allah Mahabaik dan Hanya Menerima yang Baik</h2>
+                        <h2 class="mt-4">Hadist 10 : Allah Maha Baik dan Hanya Menerima yang Baik</h2>
                         <p class="sanad arabic" dir="rtl">
                             عَنْ أَبِيْ هُرَيْرَةَ رَضِيَ اللهُ تَعَالَى عَنْهُ قَالَ: قَالَ رَسُوْلُ اللهِ:
                         </p>
@@ -386,7 +384,7 @@
                         <hr />
                     </div>
                     <div class="hadist" id="hadist-13">
-                        <h2 class="mt-4">Hadist 13 : Meninggalkan Perkara yang tidak Bermanfaat</h2>
+                        <h2 class="mt-4">Hadist 13 : Mencintai Kebaikan untuk Saudaranya</h2>
                         <p class="sanad arabic" dir="rtl">
                             عَنْ أَبِيْ حَمْزَة أَنَسِ بْنِ مَالِكٍ رَضِيَ اللهُ تَعَالَى عَنْهُ خَادِمِ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ عَنْ النَّبِيِّ صَلَّى اللهُ عَلَيْهِ وَسَلَّمَ قَالَ:
                         </p>
@@ -580,7 +578,7 @@
                         <hr />
                     </div>
                     <div class="hadist" id="hadist-22">
-                        <h2 class="mt-4">Hadist 22 : Apakah Aku akan Masuk Al-Jannah?</h2>
+                        <h2 class="mt-4">Hadist 22 : Apakah Aku akan Masuk Surga ?</h2>
                         <p class="sanad arabic" dir="rtl">
                             نْ أَبِيْ عَبْدِ اللهِ جَابِر بْنِ عَبْدِ اللهِ الأَنْصَارِيِّ –رَضِيَ اللهُ عَنْهُمَا- أَنَّ رَجُلاً سَأَلَ رَسُولَ اللهِ صلى الله عليه وسلم فَقَالَ:
                         </p>
@@ -628,7 +626,7 @@
                         <hr />
                     </div>
                     <div class="hadist" id="hadist-24">
-                        <h2 class="mt-4">Hadist 24 : Kesucian itu Separuh dari Iman</h2>
+                        <h2 class="mt-4">Hadist 24 : Janganlah Kalian saling Menzhalimi</h2>
                         <p class="sanad arabic" dir="rtl">
                             عَنْ أَبِى ذَرٍّ الْغِفَارِيّ رضي الله عنه عَنِ النَّبِيِّ صلى الله عليه وسلم فِيْمَا يَرْوِيْهِ عَنْ رَبِّهِ سبحانه وتعالى أَنَّهُ قَالَ:
                         </p>
@@ -1043,7 +1041,9 @@
                             رَوَاهُ الْبُخَارِيُّ
                         </p>
                         <p class="meaning">
-                            Dari Ibnu Umar radhiyallahu ‘anhuma dia berkata: “Suatu hari Rasulullah shallallahu ‘alaihi wa sallam memegang kedua pundakku seraya bersabda: ”Jadilah engkau di dunia ini seperti orang asing atau pengembara”. Maka Ibnu ‘Umar radhiyallahu ‘anhuma menyatakan: “Jika engkau berada di sore hari janganlah engkau menunggu datangnya esok hari. Jika engkau berada di pagi hari, janganlah engkau menunggu datangnya sore hari. Pergunakanlah masa sehatmu untuk menghadapi masa sakitmu, dan masa hidupmu untuk menghadapi masa kematianmu.”
+                            Dari Ibnu Umar radhiyallahu ‘anhuma dia berkata: “Suatu hari Rasulullah shallallahu ‘alaihi wa sallam memegang kedua pundakku seraya bersabda: ”Jadilah engkau di dunia ini seperti orang asing atau pengembara”. Maka Ibnu
+                            ‘Umar radhiyallahu ‘anhuma menyatakan: “Jika engkau berada di sore hari janganlah engkau menunggu datangnya esok hari. Jika engkau berada di pagi hari, janganlah engkau menunggu datangnya sore hari. Pergunakanlah masa
+                            sehatmu untuk menghadapi masa sakitmu, dan masa hidupmu untuk menghadapi masa kematianmu.”
                         </p>
                         <p class="rawi-meaning">
                             Riwayat Al Bukhari
@@ -1062,7 +1062,8 @@
                             حَدِيْثٌ حَسَنٌ صَحِيْحٌ رَوَيْنَاهُ فِي كِتَابِ الحُجَّةِ بِإِسْنَادٍ صَحِيْحٍ
                         </p>
                         <p class="meaning">
-                            “Dari Abu Muhammad Abdullah  bin Amr bin Al Ash radhiyallahu ‘anhuma, dia berkata: ”Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Tidaklah sempurna keimanan salah seorang di antara kalian hingga hawa nafsunya mau mengikuti apa yang aku bawa.”
+                            “Dari Abu Muhammad Abdullah bin Amr bin Al Ash radhiyallahu ‘anhuma, dia berkata: ”Rasulullah shallallahu ‘alaihi wa sallam bersabda: ”Tidaklah sempurna keimanan salah seorang di antara kalian hingga hawa nafsunya mau
+                            mengikuti apa yang aku bawa.”
                         </p>
                         <p class="rawi-meaning">
                             Hadits hasan shahih, kami telah meriwayatkannya dari kitab Al Hujjah dengan sanad shahih
@@ -1070,18 +1071,22 @@
                         <hr />
                     </div>
                     <div class="hadist" id="hadist-42">
-                        <h2 class="mt-4">Hadist 42 : Hingga Hawa Nafsunya Mengikuti Apa yang Aku Bawa</h2>
+                        <h2 class="mt-4">Hadist 42 : Allah Maha Pengampun</h2>
                         <p class="sanad arabic" dir="rtl">
                             عَنْ أَنَسِ بْنِ مَالِكٍ رضي الله عنه قَالَ: سَمِعْتُ رَسُولَ اللهِ صلى الله عليه وسلم يَقُولُ: قَالَ اللهُ تبارك و تَعَالَى:
                         </p>
                         <p class="matan arabic" dir="rtl">
-                            “يَا ابْنَ آَدَمَ إِنَّكَ مَا دَعَوْتَنِيْ وَرَجَوْتَنِيْ غَفَرْتُ لَكَ عَلَى مَا كَانَ فيك وَلا أُبَالِيْ، يَا ابْنَ آَدَمَ لَو بَلَغَتْ ذُنُوْبُكَ عَنَانَ السَّمَاءِ ثُمَّ اسْتَغْفَرْتَنِيْ غَفَرْتُ لَكَ و لا أبالي، يَا ابْنَ آَدَمَ إِنَّكَ لَوْ أَتَيْتَنِيْ بِقُرَابِ الأَرْضِ خَطَايَا ثُمَّ لقِيْتَنِيْ لاَتُشْرِكُ بِيْ شَيْئَاً لأَتَيْتُكَ بِقُرَابِهَا مَغفِرَةً”
+                            “يَا ابْنَ آَدَمَ إِنَّكَ مَا دَعَوْتَنِيْ وَرَجَوْتَنِيْ غَفَرْتُ لَكَ عَلَى مَا كَانَ فيك وَلا أُبَالِيْ، يَا ابْنَ آَدَمَ لَو بَلَغَتْ ذُنُوْبُكَ عَنَانَ السَّمَاءِ ثُمَّ اسْتَغْفَرْتَنِيْ غَفَرْتُ لَكَ و لا أبالي، يَا
+                            ابْنَ آَدَمَ إِنَّكَ لَوْ أَتَيْتَنِيْ بِقُرَابِ الأَرْضِ خَطَايَا ثُمَّ لقِيْتَنِيْ لاَتُشْرِكُ بِيْ شَيْئَاً لأَتَيْتُكَ بِقُرَابِهَا مَغفِرَةً”
                         </p>
                         <p class="rawi arabic" dir="rtl">
                             رَوَاهُ التِّرْمِذِيُّ وَقَالَ: حَدِيْثٌ حَسَنٌ صَحَيْحٌ
                         </p>
                         <p class="meaning">
-                            Dari Anas bin Malik radhiyallahu ‘anhu dia berkata: ‘Aku mendengar Rasulullah shallallahu ‘alaihi wa sallam bersabda: “Allah berfirman: ”Wahai Bani Adam, sesungguhnya jika engkau senantiasa berdoa dan berharap kepada–Ku niscaya Aku akan mengampunimu semua dosa yang ada padamu dan Aku tidak peduli. Wahai anak Adam kalau seandainya dosamu setinggi langit, kemudian engkau memohon ampun kepada– Ku, niscaya aku akan memberikan ampunan kepadamu dan Aku tidak peduli. Wahai anak Adam seandainya engkau menghadap kepada–Ku dengan membawa dosa sepenuh bumi kemudian engkau berjumpa dengan–Ku dalam keadaan tidak menyekutukanKu dengan sesuatu apapun, niscaya Aku akan mendatangimu dengan ampunan sepenuh bumi pula.”
+                            Dari Anas bin Malik radhiyallahu ‘anhu dia berkata: ‘Aku mendengar Rasulullah shallallahu ‘alaihi wa sallam bersabda: “Allah berfirman: ”Wahai Bani Adam, sesungguhnya jika engkau senantiasa berdoa dan berharap kepada–Ku
+                            niscaya Aku akan mengampunimu semua dosa yang ada padamu dan Aku tidak peduli. Wahai anak Adam kalau seandainya dosamu setinggi langit, kemudian engkau memohon ampun kepada– Ku, niscaya aku akan memberikan ampunan kepadamu
+                            dan Aku tidak peduli. Wahai anak Adam seandainya engkau menghadap kepada–Ku dengan membawa dosa sepenuh bumi kemudian engkau berjumpa dengan–Ku dalam keadaan tidak menyekutukanKu dengan sesuatu apapun, niscaya Aku akan
+                            mendatangimu dengan ampunan sepenuh bumi pula.”
                         </p>
                         <p class="rawi-meaning">
                             Riwayat At Tirmidzi, dan dia berkata bahwa hadits ini hasan shahih
@@ -1094,14 +1099,7 @@
         </div>
         <!-- /#wrapper -->
 
-        <!-- Menu Toggle Script -->
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
-        <script async>
-            $("#menu-toggle").click(function(e) {
-                e.preventDefault();
-                $("#wrapper").toggleClass("toggled");
-            });
-        </script>
     </body>
 </html>
